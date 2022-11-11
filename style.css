@@ -1,0 +1,82 @@
+body{
+    background-image: url(./images/Bar.jpg);
+    background-size: cover;
+}
+
+*{
+ margin:0;
+ padding-left: 50px;
+ padding-right: 50px;
+ font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+.title{
+    background-color: hsl(197, 100%, 35%);
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background: cover;
+    position: fixed;
+        
+}
+ input{
+     padding:0;
+
+ }
+
+ section{
+    padding: 100px;
+    background-size: cover;
+    overflow: hidden;
+    
+ }
+ .formContainer{
+    max-width: 400px;
+    margin-left:80%;
+    padding:20px;
+    background-color:#ffffffbb;
+    border-radius: 10px;
+    float: right;
+    background-image: url(./images/ico.png);
+    background-repeat: no-repeat;
+    
+ }
+
+ h2{
+    color:rgb(114, 42, 148);
+    
+ }
+
+
+ h2{
+     font-size: 22px;
+ }
+
+p{    color:rgb(114, 42, 148) ; 
+      font-size: 16px;
+      font-weight: bold;
+}
+
+.mb{
+    margin-bottom: 15px;
+
+}
+
+input, select{
+     border-radius: 10px;
+     padding: 5px;
+     margin: 5px;
+     border: none;
+         
+}
+
+#enviar{
+
+    background-color:rgb(114, 42, 148);
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
